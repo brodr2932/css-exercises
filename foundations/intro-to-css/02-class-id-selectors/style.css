@@ -9,12 +9,11 @@
     font-size: 36px;
 }
 
-.number-3 {
+.number-3, .number-4 {
     font-size: 24px;
 }
 
 #number-4 {
     background-color: #80ff80;
-    font-size: 24px;
     font-weight: bold;
 }
