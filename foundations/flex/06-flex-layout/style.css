@@ -12,6 +12,7 @@ body {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
 }
 
@@ -36,4 +37,9 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.header,
+.footer {
+  display: flex;
 }
