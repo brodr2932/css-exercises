@@ -44,8 +44,23 @@ input {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 
 .footer {
   background-color: #EEE;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  border: 1px solid red;
 }
