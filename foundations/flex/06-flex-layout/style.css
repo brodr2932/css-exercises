@@ -58,7 +58,7 @@ input {
   justify-content: center;
   align-items: center;
   flex: 1;
-  height: 100%;
+  background: pink;
 }
 
 .footer {
