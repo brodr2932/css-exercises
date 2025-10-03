@@ -33,6 +33,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #EEE;
+  padding: 5px 15px;
+  margin-top: 15px;
 }
 
 input {
@@ -49,21 +51,16 @@ input {
   padding: 15px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  height: 100%;
+}
+
 .footer {
   background-color: #EEE;
   margin-top: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-.header {
-  border: 1px solid red;
 }
