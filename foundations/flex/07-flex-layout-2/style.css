@@ -34,29 +34,6 @@ li {
   flex: 1;
 }
 
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  padding: 48px;
-}
-
-.card {
-  padding: 16px;
-  height: 350px;
-  width: 350px;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
-  margin-top: auto;
-}
-
 .sidebar {
   min-width: 300px;
   background: royalblue;
@@ -69,8 +46,28 @@ li {
   text-decoration: none;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 48px;
+}
+
 .card {
+  padding: 16px;
+  height: 350px;
+  width: 350px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  margin-top: auto;
 }
