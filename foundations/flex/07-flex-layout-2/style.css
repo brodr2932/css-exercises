@@ -31,6 +31,17 @@ li {
 
 .container {
   display: flex;
+  flex: 1;
+}
+
+.card-container {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
 }
 
 .footer {
