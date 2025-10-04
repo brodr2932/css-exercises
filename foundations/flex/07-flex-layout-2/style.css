@@ -11,6 +11,10 @@ body {
   min-height: 100vh;
 }
 
+li {
+  list-style-type: none;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -35,6 +39,7 @@ body {
 .sidebar {
   min-width: 300px;
   background: royalblue;
+  padding: 16px;
 }
 
 .sidebar li a {
